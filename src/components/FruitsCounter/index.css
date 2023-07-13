@@ -1,0 +1,77 @@
+/* Write your CSS here */
+
+.container {
+  background-color: #ffd569;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  max-width: 100%;
+}
+
+.image {
+  height: 200px;
+}
+
+.button {
+  height: 30px;
+  width: 100px;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 8px;
+  border-width: 0px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  outline: none;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #000000;
+  font-size: 30px;
+}
+
+.span-element {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ffd569;
+  font-size: 30px;
+}
+
+.fruit-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 768px) {
+  .fruit-icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .card-container {
+    width: 90%;
+    padding: 30 0;
+  }
+  .heading {
+    font-size: 40px;
+    margin: 40px 0;
+  }
+}
